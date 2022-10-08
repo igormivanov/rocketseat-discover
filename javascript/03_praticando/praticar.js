@@ -64,11 +64,9 @@ console.log(typeof name) -> string
         isSubscribed: true
     }
 
-*/
-/*
-
 // 4. A variável strudent abaixo é de que tipo de dado?
     Objeto 
+
 
 // 4.1 Atribua a ela as mesmas propriedades e valores do exercicío 3.
 
@@ -79,11 +77,25 @@ console.log(typeof name) -> string
         isSubscribed: true
     }
 
+
 // 4.2 Mostre no console a seguinte mensagem:
     <name> de idade <age> pesa <weight> kg.
 
     Atenção, substitua <name> <age> e <weight> pelos valores de cada propriedade do objeto
 
     console.log(`${student.name} de idade ${student.age} pesa ${student.stars} kg.`)
+
+
+// 5. Sem rodar o código responda qual é a    resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou
+
+console.log(a)
+var a = 1
+
+Acontece que será exibido Undefined pois o var está sendo declarado depois do console, porém o programa entende que existe uma variável, que ainda não foi atribuido nenhum valor
+
+var a;
+console.log(a)
+a = 1
+
 */ 
 

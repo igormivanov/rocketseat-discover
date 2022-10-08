@@ -94,7 +94,7 @@ var a = 1
 Acontece que será exibido Undefined pois o var está sendo declarado depois do console, porém o programa entende que existe uma variável, que ainda não foi atribuido nenhum valor
 
 var a;
-console.log(a)
+console.log(a);
 a = 1
 
 */ 

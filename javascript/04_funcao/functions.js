@@ -10,3 +10,5 @@ function createPhrases(){
 // execultar a função
 // execute, run, call, invoke
 createPhrases()
+
+console.log('fim do programa')
